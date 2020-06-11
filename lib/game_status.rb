@@ -48,3 +48,9 @@ def over?(board)
     true
   end
 end
+
+def winner(board)
+  if won?(board)
+    return win_combination[0]
+  end
+end
